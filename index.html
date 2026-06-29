@@ -56,7 +56,7 @@ aria-label="Закрыть диалоговое окно"> <svg role="presentati
     iframe.src = embedLink;
     iframe.frameBorder = '0';
     iframe.setAttribute('allowfullscreen', '');
-    iframe.setAttribute('allow',"autoplay; picture-in-picture; encrypted-media;")
+    iframe.setAttribute('allow',"autoplay; picture-in-picture; encrypted-media; clipboard-write;")
     popupContainer.insertAdjacentElement('beforeend', iframe)
     if (popupClose === null) {
     popupClose = popupParent.querySelector('.t-popup__close')
@@ -140,7 +140,7 @@ aria-label="Закрыть диалоговое окно"> <svg role="presentati
     iframe.src = embedLink;
     iframe.frameBorder = '0';
     iframe.setAttribute('allowfullscreen', '');
-    iframe.setAttribute('allow',"autoplay; picture-in-picture; encrypted-media;")
+    iframe.setAttribute('allow',"autoplay; picture-in-picture; encrypted-media; clipboard-write;")
     popupContainer.insertAdjacentElement('beforeend', iframe)
     if (popupClose === null) {
     popupClose = popupParent.querySelector('.t-popup__close')
